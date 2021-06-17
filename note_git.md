@@ -62,11 +62,12 @@ git config –global user.name “milkywoosh”
 
 git config –global user.email “name@email.com”	
 
+- undo git add . agar tidak jadi add
+git reset filename.extension
 
 
 
-
-// HOW TO PULL REQUEST
+// HOW TO PULL REQUEST ke REPO orang
 
 - go to REPO target punya orang
 - FORK ke akun pribadi
@@ -74,11 +75,15 @@ git config –global user.email “name@email.com”
 - create new branch : -> git branch "new_name_branch"
 - ke branch baru: -> git checkout new_name_branch
 - edit file yg akan kita kontribusi
-- git add . then git commit -m "any message"
+- git add .
+- git commit -m "any message"
 - git remote add upstream "address REPO target"
 - git push -u origin "spesifik branch target"
 - kemudian: git push -u origin "new_name_branch"
 - MENUNGGU RESPON OWNER REPO TARGET
+
+
+// RESOLVE PROBLEM CONFLICT
 
 
 
