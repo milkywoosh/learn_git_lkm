@@ -10,7 +10,7 @@ git status
 git add anyFile.txt	
 
 - commit message use HEADER and BODY
-git commit [ -m HEADER message” ]	[ BODY MESSAGE: create message for commit we made ]
+git commit [ -m HEADER message” ]	[ - m "BODY MESSAGE: create message for commit we made" ]
 
 - check log commit message
 git log 	check history of commit with message and its hash code
@@ -65,7 +65,8 @@ git config –global user.email “name@email.com”
 - undo git add . agar tidak jadi add
 git reset filename.extension
 
-
+- cara pull file semua branch
+git fetch
 
 // HOW TO PULL REQUEST ke REPO orang
 
